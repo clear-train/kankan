@@ -42,7 +42,9 @@ const historyPerson = {
 
 const FILE_RULES = {
   'history/76-altman.md': historyPerson,
-  'history/77-lecun.md': historyPerson
+  'history/77-lecun.md': historyPerson,
+  'history/84-hinton.md': historyPerson,
+  'history/85-sutskever.md': historyPerson
 }
 
 const errors = []

@@ -64,6 +64,13 @@
 | ✅ | 杰文斯悖论 | 老板局 | `docs/words/38-jevons.md` |
 | ✅ | Jev 与决策模型 | 技术局 | `docs/words/39-jev.md` |
 | ✅ | JEPA | 技术局 | `docs/words/40-jepa.md` |
+| ✅ | Harness（脚手架） | 技术局 | `docs/words/41-harness.md` |
+| ✅ | 模型路由 | 技术局 | `docs/words/42-router.md` |
+| ✅ | 上下文工程 | 技术局 | `docs/words/43-context-engineering.md` |
+| ✅ | 后训练与 RLVR | 技术局 | `docs/words/44-post-training.md` |
+| ✅ | 评测污染 | 技术局 | `docs/words/45-benchmark.md` |
+| ✅ | 端侧模型 | 技术局 | `docs/words/46-edge-model.md` |
+| ✅ | 合成数据 | 技术局 | `docs/words/47-synthetic-data.md` |
 
 ---
 
@@ -110,6 +117,7 @@
 | ✅ | 李佳琦在卖 Token，两万亿个 | 货架上摆的不是算力，是我已经付过了 | `docs/now/61-token-live.md` |
 | ✅ | 一部 AI 剧，一千集，一百二十亿次播放 | 两分钟是给手指的，一千集是给惯性的 | `docs/now/62-ai-drama.md` |
 | ✅ | 为了证明自己是人，人们开始故意写错字 | 这不是识别真伪，是识别不合规矩 | `docs/now/63-ai-flavor.md` |
+| ✅ | LibTV：一个卖视频工具的公司，先学会开健身房 | 工具商夹在模型厂和创作者中间，只能先补贴换人 | `docs/now/64-libtv.md` |
 | ⬜ | 待定 | 不收：涉及未经证实的指控、私人生活、外交与情报传闻 | — |
 
 ---
