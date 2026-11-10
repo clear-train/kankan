@@ -17,21 +17,26 @@ function readTitle(file: string): string {
   return match ? match[1].trim() : path.basename(file, '.md')
 }
 
-function sectionsOf(dir: string) {
+function sectionsOf(dir: string, order?: string[]) {
   const full = path.join(docsRoot, dir)
   if (!fs.existsSync(full)) return []
+  const rank = (f: string) => {
+    if (!order) return 0
+    const i = order.indexOf(f.replace(/\.md$/, ''))
+    return i === -1 ? order.length : i
+  }
   return fs
     .readdirSync(full)
     .filter((f) => f.endsWith('.md'))
-    .sort()
+    .sort((a, b) => rank(a) - rank(b) || a.localeCompare(b))
     .map((f) => ({
       text: readTitle(path.join(full, f)),
       link: `/${dir}/${f.replace(/\.md$/, '')}`
     }))
 }
 
-function volume(title: string, dir: string) {
-  const items = sectionsOf(dir)
+function volume(title: string, dir: string, order?: string[]) {
+  const items = sectionsOf(dir, order)
   return items.length ? [{ text: title, items }] : []
 }
 
@@ -65,12 +70,20 @@ export default defineConfig({
       { text: '附录', link: '/appendix/cheat-sheet' }
     ],
     sidebar: {
-      '/start/': volume('卷零 · 上桌之前', 'start'),
+      '/start/': volume('卷零 · 上桌之前', 'start', [
+        'why',
+        'three-people',
+        'how-to-use'
+      ]),
       '/base/': volume('卷一 · 地基', 'base'),
       '/words/': volume('卷二 · 热词', 'words'),
       '/industry/': volume('卷三 · 生意', 'industry'),
       '/reflect/': volume('卷四 · 反思', 'reflect'),
-      '/appendix/': volume('附录', 'appendix')
+      '/appendix/': volume('附录', 'appendix', [
+        'cheat-sheet',
+        'scripts',
+        'red-flags'
+      ])
     },
     search: { provider: 'local' },
     outline: { level: [2, 3], label: '本页' },
