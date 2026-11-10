@@ -1,0 +1,103 @@
+:root {
+  --vp-c-brand-1: #a8492e;
+  --vp-c-brand-2: #bd5a3c;
+  --vp-c-brand-3: #cf6b4b;
+  --vp-c-brand-soft: rgba(168, 73, 46, 0.12);
+}
+
+/* 正文用衬线，界面保持无衬线：一本可以慢慢读的书 */
+.vp-doc {
+  font-family: "Georgia", "Songti SC", "Noto Serif SC", "Source Han Serif SC",
+    serif;
+}
+
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.9;
+}
+
+.vp-doc p {
+  margin: 14px 0;
+}
+
+.vp-doc h1 {
+  font-size: 30px;
+  letter-spacing: 0.02em;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc h2 {
+  margin-top: 44px;
+  padding-top: 0;
+  border-top: none;
+  font-size: 21px;
+  letter-spacing: 0.02em;
+}
+
+.vp-doc h2::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 3px;
+  margin-right: 10px;
+  vertical-align: 6px;
+  background-color: var(--vp-c-brand-1);
+  border-radius: 2px;
+}
+
+/* 开篇那句判断，是整篇最该被记住的东西，给它一点排版重量 */
+.vp-doc h2[id="一句话"] {
+  margin-top: 28px;
+}
+
+.vp-doc h2[id="一句话"] + p {
+  font-size: 19px;
+  line-height: 1.85;
+  padding: 2px 0 2px 16px;
+  border-left: 3px solid var(--vp-c-brand-soft);
+  color: var(--vp-c-text-1);
+}
+
+/* 「一句话」这类引用块，做成书里的眉批 */
+.vp-doc blockquote {
+  margin: 20px 0;
+  padding: 14px 20px;
+  border-left: 3px solid var(--vp-c-brand-1);
+  border-radius: 2px 6px 6px 2px;
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+}
+
+.vp-doc blockquote > p {
+  margin: 0;
+  font-size: 17px;
+}
+
+.vp-doc blockquote > p + p {
+  margin-top: 10px;
+}
+
+/* 首页 */
+.VPHero .name {
+  letter-spacing: 0.06em;
+}
+
+.VPHero .text {
+  font-family: "Georgia", "Songti SC", "Noto Serif SC", serif;
+  letter-spacing: 0.02em;
+}
+
+.VPFooter {
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .vp-doc h1 {
+    font-size: 26px;
+  }
+
+  .vp-doc h2 {
+    font-size: 19px;
+  }
+}

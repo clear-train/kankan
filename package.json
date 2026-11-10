@@ -1,0 +1,15 @@
+{
+  "name": "kankan",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "侃侃：一本让你在饭桌上真的懂 AI 的书",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
