@@ -59,6 +59,18 @@
   color: var(--vp-c-text-1);
 }
 
+/* 衬线字体在 600 字重下几乎没有区别，加粗必须真加粗 */
+.vp-doc strong {
+  font-weight: 700;
+}
+
+/* 表格在窄屏会撑破正文宽度，允许它自己横向滚动 */
+.vp-doc table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
 /* 「一句话」这类引用块，做成书里的眉批 */
 .vp-doc blockquote {
   margin: 20px 0;
