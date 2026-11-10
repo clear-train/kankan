@@ -35,6 +35,17 @@ function sectionsOf(dir: string, order?: string[]) {
     }))
 }
 
+const appendixSidebar = () => [
+  {
+    text: '附录',
+    items: [
+      ...sectionsOf('appendix', ['cheat-sheet', 'scripts', 'red-flags']),
+      { text: '引用规范', link: '/citation' },
+      { text: '更新日志', link: '/updates' }
+    ]
+  }
+]
+
 function volume(title: string, dir: string, order?: string[]) {
   const items = sectionsOf(dir, order)
   return items.length ? [{ text: title, items }] : []
@@ -67,7 +78,8 @@ export default defineConfig({
       { text: '热词', link: '/words/20-llm' },
       { text: '生意', link: '/industry/40-coding' },
       { text: '反思', link: '/reflect/50-jobs' },
-      { text: '附录', link: '/appendix/cheat-sheet' }
+      { text: '附录', link: '/appendix/cheat-sheet' },
+      { text: '更新', link: '/updates' }
     ],
     sidebar: {
       '/start/': volume('卷零 · 上桌之前', 'start', [
@@ -79,11 +91,9 @@ export default defineConfig({
       '/words/': volume('卷二 · 热词', 'words'),
       '/industry/': volume('卷三 · 生意', 'industry'),
       '/reflect/': volume('卷四 · 反思', 'reflect'),
-      '/appendix/': volume('附录', 'appendix', [
-        'cheat-sheet',
-        'scripts',
-        'red-flags'
-      ])
+      '/appendix/': appendixSidebar(),
+      '/citation': appendixSidebar(),
+      '/updates': appendixSidebar()
     },
     search: { provider: 'local' },
     outline: { level: [2, 3], label: '本页' },
@@ -100,7 +110,7 @@ export default defineConfig({
       text: '在 GitHub 上改这一页'
     },
     footer: {
-      message: '文字内容以 CC BY-NC-SA 4.0 发布，代码以 MIT 发布。',
+      message: '文字以 CC BY 4.0 发布，代码以 MIT 发布。可转载、可商用，注明来源即可。',
       copyright: '侃侃 · 会一直更新'
     },
     socialLinks: [{ icon: 'github', link: repo }]
