@@ -92,6 +92,15 @@
   font-size: 13px;
 }
 
+
+/* 卷五「当下」：保质期一句，做旧一点 */
+.vp-doc h2[id="这一篇的保质期"] + p {
+  color: var(--vp-c-text-2);
+  font-size: 15px;
+  padding-left: 14px;
+  border-left: 2px solid var(--vp-c-divider);
+}
+
 @media (max-width: 768px) {
   .vp-doc h1 {
     font-size: 26px;

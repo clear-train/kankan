@@ -30,6 +30,7 @@
 | 卷二 · 热词 | LLM、幻觉、RAG、Agent、MCP、AGI 等 16 个词 | 完成 |
 | 卷三 · 生意 | 编程、搜索、陪伴、生成、To B、芯片、泡沫 | 完成 |
 | 卷四 · 反思 | 替代、版权、安全、污染、AI 味 | 完成 |
+| 卷五 · 当下 | 正在刷屏的文章、直播、短剧，带日期和保质期 | 持续更新 |
 | 附录 | 一分钟速查、饭局剧本、反装逼清单 | 完成 |
 
 完整目录与写作计划见 [OUTLINE.md](OUTLINE.md)。
@@ -39,6 +40,7 @@
 - **想系统看**：从[为什么是饭桌](docs/start/why.md)开始，按卷一 → 卷四的顺序。
 - **想临时抱佛脚**：直接翻[一分钟速查](docs/appendix/cheat-sheet.md)，然后看[饭局剧本](docs/appendix/scripts.md)。
 - **想防身**：先读[反装逼清单](docs/appendix/red-flags.md)，二十条，两分钟。
+- **想知道最近在聊什么**：看[卷五「当下」](docs/now/index.md)，每篇标注写作日期和保质期，过期不删。
 - **想参与写作**：读 [STYLE.md](STYLE.md) 和 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 每个词条独立成篇，五分钟够用，不必从头看到尾。

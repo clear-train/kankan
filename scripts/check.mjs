@@ -28,6 +28,7 @@ const VOLUMES = {
   words: { min: 450, max: 750, sections: ['一句话', '饭桌上可以这么说', '它到底怎么转的', '说到这儿就该停了', '这个词是怎么被用坏的'] },
   industry: { min: 650, max: 950, sections: ['一个场景', '它是怎么转的', '饭桌上可以这么说', '说到这儿就该停了', '最后'] },
   reflect: { min: 650, max: 950, sections: ['一个场景', '它是怎么转的', '饭桌上可以这么说', '说到这儿就该停了', '最后'] },
+  now: { min: 550, max: 950, sections: ['发生了什么', '大家怎么说', '拆开看', '一年后再看', '这一篇的保质期'] },
   appendix: { min: 300, max: 1600, sections: null }
 }
 
@@ -50,7 +51,7 @@ function walk(dir) {
 
 for (const file of walk(ROOT)) {
   const rel = path.relative(ROOT, file)
-  if (['index.md', '404.md', 'updates.md', 'citation.md'].includes(rel)) continue
+  if (['index.md', '404.md', 'updates.md', 'citation.md'].includes(rel) || rel.endsWith('index.md')) continue
 
   const volume = rel.split(path.sep)[0]
   const rule = VOLUMES[volume]

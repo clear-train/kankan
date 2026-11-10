@@ -27,7 +27,7 @@ function sectionsOf(dir: string, order?: string[]) {
   }
   return fs
     .readdirSync(full)
-    .filter((f) => f.endsWith('.md'))
+    .filter((f) => f.endsWith('.md') && f !== 'index.md')
     .sort((a, b) => rank(a) - rank(b) || a.localeCompare(b))
     .map((f) => ({
       text: readTitle(path.join(full, f)),
@@ -78,6 +78,7 @@ export default defineConfig({
       { text: '热词', link: '/words/20-llm' },
       { text: '生意', link: '/industry/40-coding' },
       { text: '反思', link: '/reflect/50-jobs' },
+      { text: '当下', link: '/now/' },
       { text: '附录', link: '/appendix/cheat-sheet' },
       { text: '更新', link: '/updates' }
     ],
@@ -91,6 +92,15 @@ export default defineConfig({
       '/words/': volume('卷二 · 热词', 'words'),
       '/industry/': volume('卷三 · 生意', 'industry'),
       '/reflect/': volume('卷四 · 反思', 'reflect'),
+      '/now/': [
+        {
+          text: '卷五 · 当下',
+          items: [
+            { text: '这一卷会过气', link: '/now/' },
+            ...sectionsOf('now')
+          ]
+        }
+      ],
       '/appendix/': appendixSidebar(),
       '/citation': appendixSidebar(),
       '/updates': appendixSidebar()
