@@ -26,13 +26,13 @@
 
 | 状态 | 篇目 | 一句话 | 文件 |
 | --- | --- | --- | --- |
-| ✅ | 一切从「猜下一个字」开始 | 它做的唯一一件事，是猜下一个字 | `docs/base/10-next-token.md` |
-| ✅ | Token：AI 眼里的世界是碎的 | 它不按字读，按碎片读，碎片还收费 | `docs/base/11-token.md` |
-| ✅ | 神经网络：一台巨大的拟合机 | 它不是在想，它在逼近一个函数 | `docs/base/12-neural-net.md` |
-| ✅ | 训练：把互联网吃进去 | 一次训练，就是一次大规模的纠错 | `docs/base/13-training.md` |
-| ✅ | 参数与向量：意思可以被算出来 | 「国王 − 男人 + 女人 = 女王」不是玄学 | `docs/base/14-embedding.md` |
-| ✅ | 算力：为什么这玩意儿这么贵 | 它烧的不是电，是并行计算 | `docs/base/15-compute.md` |
-| ✅ | 开源与闭源：不是道德问题 | 免费的是模型，贵的是数据和场景 | `docs/base/16-open-source.md` |
+| ✅ | 一切从「猜下一个字」开始 | 它不是在回答问题，是在接住你的话；答案只是接得准的副产品 | `docs/base/10-next-token.md` |
+| ✅ | Token：AI 眼里的世界是碎的 | 它读的不是字，是可以计价的碎片；你跟它说话，其实是在过磅 | `docs/base/11-token.md` |
+| ✅ | 神经网络：一台巨大的拟合机 | 名字叫神经网络，干的却是调旋钮：乘一下、加一下、拐个弯，重复几十层 | `docs/base/12-neural-net.md` |
+| ✅ | 训练：把互联网吃进去 | 训练不是上课，是把互联网当练习册：遮住后半句，让它猜，答案就在原文里 | `docs/base/13-training.md` |
+| ✅ | 参数与向量：意思可以被算出来 | 意思在它那里不是解释，是坐标；两个词挨得近，是因为常出现在同一种句子里 | `docs/base/14-embedding.md` |
+| ✅ | 算力：为什么这玩意儿这么贵 | 它贵不是因为芯片快，是因为成千上万张卡得同时算一件事，还得不停对表 | `docs/base/15-compute.md` |
+| ✅ | 开源与闭源：不是道德问题 | 开放权重是把做好的菜端给你，不是把厨房给你；洗碗的还是你 | `docs/base/16-open-source.md` |
 
 ---
 
@@ -67,13 +67,13 @@
 
 | 状态 | 篇目 | 文件 |
 | --- | --- | --- |
-| ⬜ | AI 编程：最快被改变的一群人 | `docs/industry/40-coding.md` |
-| ⬜ | AI 搜索：入口之争 | `docs/industry/41-search.md` |
-| ⬜ | AI 陪伴：孤独的生意 | `docs/industry/42-companion.md` |
-| ⬜ | 图像与视频生成：版权与审美 | `docs/industry/43-generation.md` |
-| ⬜ | 为什么 To B 这么难 | `docs/industry/44-tob.md` |
-| ⬜ | 算力与芯片：新石油 | `docs/industry/45-chips.md` |
-| ⬜ | 泡沫：谁在裸泳 | `docs/industry/46-bubble.md` |
+| ✅ | AI 编程：最快被改变的一群人 | `docs/industry/40-coding.md` |
+| ✅ | AI 搜索：入口之争 | `docs/industry/41-search.md` |
+| ✅ | AI 陪伴：孤独的生意 | `docs/industry/42-companion.md` |
+| ✅ | 图像与视频生成：版权与审美 | `docs/industry/43-generation.md` |
+| ✅ | 为什么 To B 这么难 | `docs/industry/44-tob.md` |
+| ✅ | 算力与芯片：新石油 | `docs/industry/45-chips.md` |
+| ✅ | 泡沫：谁在裸泳 | `docs/industry/46-bubble.md` |
 
 ---
 
@@ -83,12 +83,12 @@
 
 | 状态 | 篇目 | 文件 |
 | --- | --- | --- |
-| ⬜ | 谁会被替代：一个诚实的估计 | `docs/reflect/50-jobs.md` |
-| ⬜ | 版权与训练数据：先上车后补票 | `docs/reflect/51-copyright.md` |
-| ⬜ | 安全与末日论：谁在害怕什么 | `docs/reflect/52-safety.md` |
-| ⬜ | 信息污染：当互联网开始自我循环 | `docs/reflect/53-pollution.md` |
-| ⬜ | AI 味：语言的通货膨胀 | `docs/reflect/54-ai-flavor.md` |
-| ⬜ | 我们为什么爱谈 AI | `docs/reflect/55-why-we-talk.md` |
+| ✅ | 谁会被替代：一个诚实的估计 | `docs/reflect/50-jobs.md` |
+| ✅ | 版权与训练数据：先上车后补票 | `docs/reflect/51-copyright.md` |
+| ✅ | 安全与末日论：谁在害怕什么 | `docs/reflect/52-safety.md` |
+| ✅ | 信息污染：当互联网开始自我循环 | `docs/reflect/53-pollution.md` |
+| ✅ | AI 味：语言的通货膨胀 | `docs/reflect/54-ai-flavor.md` |
+| ✅ | 我们为什么爱谈 AI | `docs/reflect/55-why-we-talk.md` |
 
 ---
 
@@ -96,9 +96,9 @@
 
 | 状态 | 篇目 | 用途 | 文件 |
 | --- | --- | --- | --- |
-| ⬜ | 一分钟速查 | 30 个词，每个一句，饭局前扫一眼 | `docs/appendix/cheat-sheet.md` |
-| ⬜ | 饭局剧本 | 五个真实场景，逐句怎么接 | `docs/appendix/scripts.md` |
-| ⬜ | 反装逼清单 | 听到这些话，先别信 | `docs/appendix/red-flags.md` |
+| ✅ | 一分钟速查 | 30 个词，每个一句，饭局前扫一眼 | `docs/appendix/cheat-sheet.md` |
+| ✅ | 饭局剧本 | 五个真实场景，逐句怎么接 | `docs/appendix/scripts.md` |
+| ✅ | 反装逼清单 | 听到这些话，先别信 | `docs/appendix/red-flags.md` |
 
 ---
 
