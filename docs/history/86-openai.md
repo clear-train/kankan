@@ -30,7 +30,7 @@
 
 ## 现在还剩什么
 
-剩下的是一个被钱追着跑的公司。2026 年 3 月底，它完成 1220 亿美元融资，估值 8520 亿美元；亚马逊投 500 亿，英伟达和软银各 300 亿，亚马逊那笔里有 350 亿押在「上市或达到 AGI」上（[The Straits Times](https://www.straitstimes.com/business/companies-markets/openai-valued-at-1-trillion-after-completing-157-billion-funding-round)）。月收入 20 亿美元，企业客户占四成，ChatGPT 开始放广告。
+剩下的是一个被钱追着跑的公司。2026 年 3 月底，它完成 1220 亿美元融资，估值 8520 亿美元（报道标题里的 1570 亿、1 万亿是新元口径）；亚马逊投 500 亿，英伟达和软银各 300 亿，亚马逊那笔里有 350 亿押在「上市或达到 AGI」上（[The Straits Times](https://www.straitstimes.com/business/companies-markets/openai-valued-at-1-trillion-after-completing-157-billion-funding-round)）。月收入 20 亿美元，企业客户占四成，ChatGPT 开始放广告。
 
 4 月 27 日，两家发联合声明：微软放弃对 OpenAI 模型的独家销售权，转售分成那笔账也一笔勾销；微软仍是首要云，新品先上 Azure；OpenAI 付给微软的分成延到 2030 年，且不再与「是否达到 AGI」挂钩（[The Straits Times](https://www.straitstimes.com/business/companies-markets/openai-breaks-free-from-exclusive-ai-pact-with-microsoft)）。
 

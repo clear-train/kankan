@@ -38,7 +38,7 @@ BERT 只有编码器，没有解码器。编码器把一句话读成一组向量
 
 留下的是填空这门手艺。掩码语言模型后来不再是主线，但它作为训练目标之一，一直活在各种模型里；「先自学，再微调」这六个字，也一直活着。
 
-留下的还有它在产品里的位置。2019 年 10 月，谷歌把它放进搜索（[博客](https://blog.google/products-and-platforms/products/search/search-language-understanding-bert/)），先管美国的一成英文查询。2020 年 11 月，谷歌在 Search On 上说，几乎每一次英文查询都经过它这一类模型（[博客](https://blog.google/products-and-platforms/products/search/search-on/)）。2021 年有了 MUM（[博客](https://blog.google/products-and-platforms/products/search/introducing-mum/)）。2023 年之后，同一家公司开始把答案直接写在页面上，链接退到下面（[博客](https://blog.google/products/search/generative-ai-search/)）。
+留下的还有它在产品里的位置。2019 年 10 月，谷歌把它放进搜索（[博客](https://blog.google/products-and-platforms/products/search/search-language-understanding-bert/)），先管美国的一成英文查询。2020 年，谷歌在 Search On 上说，几乎每一次英文查询都经过它这一类模型（[博客](https://blog.google/products-and-platforms/products/search/search-on/)）。2021 年有了 MUM（[博客](https://blog.google/products-and-platforms/products/search/introducing-mum/)）。2023 年之后，同一家公司开始把答案直接写在页面上，链接退到下面（[博客](https://blog.google/products/search/generative-ai-search/)）。
 
 看这条线的走向：它一直在后台。理解完，把结果交给别人。前台换成对话框之后，它的活还在，只是没人再提它的名字。
 
