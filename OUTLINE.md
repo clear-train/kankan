@@ -59,6 +59,11 @@
 | ✅ | 对齐与 RLHF | 哲学局 | `docs/words/33-alignment.md` |
 | ✅ | Scaling Law | 老板局 | `docs/words/34-scaling-law.md` |
 | ✅ | AGI | 哲学局 | `docs/words/35-agi.md` |
+| ✅ | 具身智能 | 老板局 | `docs/words/36-embodied.md` |
+| ✅ | 世界模型 | 技术局 | `docs/words/37-world-model.md` |
+| ✅ | 杰文斯悖论 | 老板局 | `docs/words/38-jevons.md` |
+| ✅ | Jev 与决策模型 | 技术局 | `docs/words/39-jev.md` |
+| ✅ | JEPA | 技术局 | `docs/words/40-jepa.md` |
 
 ---
 

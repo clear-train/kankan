@@ -18,7 +18,7 @@
 
 所以它要学三样：现在是什么局面，局面会怎么变，「如果我这么做会变成什么样」。第三样最难，得学会分叉：同一个局面，不同动作通向不同的未来。
 
-杨立昆押的就是这条线：光预测下一个词，到不了会规划的智能，得先预测世界，再在预测里规划。他 2025 年离开 Meta 去做世界模型创业公司（[报道](https://www.cnbc.com/2025/11/19/meta-chief-ai-scientist-yann-lecun-is-leaving-the-company-.html)），来路见[杨立昆](/history/77-lecun)。
+杨立昆押的就是这条线：光预测下一个词，到不了会规划的智能，得先预测世界，再在预测里规划。他 2025 年离开 Meta 去做世界模型创业公司（[报道](https://www.cnbc.com/2025/11/19/meta-chief-ai-scientist-yann-lecun-is-leaving-the-company-.html)），来路见[杨立昆](/history/77-lecun)，技术细节见 [JEPA](/words/40-jepa)。
 
 ## 说到这儿就该停了
 
