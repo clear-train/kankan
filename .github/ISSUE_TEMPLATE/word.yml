@@ -1,0 +1,35 @@
+name: 提一个新词
+description: 有个词已经砸到普通人脸上了，这本书还没写
+title: "新词："
+labels: ["新词条"]
+body:
+  - type: input
+    id: word
+    attributes:
+      label: 词
+      placeholder: 例如：上下文工程
+    validations:
+      required: true
+  - type: textarea
+    id: scene
+    attributes:
+      label: 你在哪桌饭上听到的
+      description: 谁问的、怎么问的、当时你怎么接的。有原话最好。
+      placeholder: 上周部门聚餐，老板问我……
+    validations:
+      required: true
+  - type: textarea
+    id: oneline
+    attributes:
+      label: 试着用一句话说清它
+      description: 不超过 40 字，要是判断，不是定义。说不清也没关系，写「不知道」。
+  - type: dropdown
+    id: volume
+    attributes:
+      label: 你建议放哪
+      options:
+        - 卷二 · 热词
+        - 卷三 · 生意
+        - 卷四 · 反思
+        - 附录 · 速查表就够了
+        - 不确定

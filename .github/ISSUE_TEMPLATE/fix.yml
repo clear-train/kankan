@@ -1,0 +1,26 @@
+name: 纠错
+description: 某句话说错了、说过头了、过时了
+title: "纠错："
+labels: ["纠错"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 哪一页
+      description: 粘贴站点链接，或写文件路径，例如 docs/words/26-rag.md
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: 原句
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么不对
+      description: 能给一个更准确的说法最好。不需要礼貌，需要准确。
+    validations:
+      required: true

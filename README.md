@@ -2,6 +2,12 @@
 
 > 一本让你在饭桌上真的懂 AI 的书。
 
+[![Deploy](https://github.com/clear-train/kankan/actions/workflows/deploy.yml/badge.svg)](https://github.com/clear-train/kankan/actions/workflows/deploy.yml)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/text-CC%20BY--NC--SA%204.0-a8492e.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/code-MIT-a8492e.svg)](LICENSE-CODE)
+
+在线读：**https://clear-train.github.io/kankan/**
+
 不是术语词典，不是行业报告，是一本**能说出口**的 AI 说明书。
 
 ## 这本书想解决什么
@@ -15,12 +21,27 @@
 
 附带一点反思：我们谈 AI 的方式，其实暴露了我们怎么理解技术、工作和自己。
 
+## 全书结构
+
+| 卷 | 内容 | 状态 |
+| --- | --- | --- |
+| 卷零 · 上桌之前 | 这本书为什么存在、怎么用 | 完成 |
+| 卷一 · 地基 | 猜下一个字、token、训练、向量、算力 | 完成 |
+| 卷二 · 热词 | LLM、幻觉、RAG、Agent、MCP、AGI 等 16 个词 | 完成 |
+| 卷三 · 生意 | 编程、搜索、陪伴、生成、To B、芯片、泡沫 | 完成 |
+| 卷四 · 反思 | 替代、版权、安全、污染、AI 味 | 完成 |
+| 附录 | 一分钟速查、饭局剧本、反装逼清单 | 完成 |
+
+完整目录与写作计划见 [OUTLINE.md](OUTLINE.md)。
+
 ## 怎么读
 
-- 想系统看：从 [为什么是饭桌](docs/start/why.md) 开始，按卷一 → 卷二 → 卷三 → 卷四的顺序。
-- 想临时抱佛脚：直接翻词条，每个词条独立，五分钟够用。
-- 想看结构：见 [OUTLINE.md](OUTLINE.md)。
-- 想参与写作：先读 [STYLE.md](STYLE.md)，那里面规定了这本书的腔调。
+- **想系统看**：从[为什么是饭桌](docs/start/why.md)开始，按卷一 → 卷四的顺序。
+- **想临时抱佛脚**：直接翻[一分钟速查](docs/appendix/cheat-sheet.md)，然后看[饭局剧本](docs/appendix/scripts.md)。
+- **想防身**：先读[反装逼清单](docs/appendix/red-flags.md)，二十条，两分钟。
+- **想参与写作**：读 [STYLE.md](STYLE.md) 和 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+每个词条独立成篇，五分钟够用，不必从头看到尾。
 
 ## 本地运行
 
@@ -28,9 +49,12 @@
 npm install
 npm run dev      # 本地预览 http://localhost:5173
 npm run build    # 构建静态站点到 docs/.vitepress/dist
+npm run preview  # 预览构建结果
 ```
 
-内容全部是 Markdown，不依赖站点也能读。
+需要 Node 18 以上。内容全部是 Markdown，不依赖站点也能读。
+
+侧边栏由构建时读取目录生成，新增一个 `.md` 文件会自动出现在左侧目录里，不需要改配置。
 
 ## 目录结构
 
@@ -39,18 +63,38 @@ docs/
   start/      卷零 · 上桌之前
   base/       卷一 · 地基（机制）
   words/      卷二 · 热词（词条）
-  industry/   卷三 · 生意（规划中）
-  reflect/    卷四 · 反思（规划中）
-  appendix/   附录（规划中）
+  industry/   卷三 · 生意
+  reflect/    卷四 · 反思
+  appendix/   附录：速查、剧本、反装逼清单
+  .vitepress/ 站点配置与主题
+OUTLINE.md    全书结构
+STYLE.md      写作手册
+CONTRIBUTING.md 参与方式
 ```
 
 ## 写作原则（摘要）
 
-- 每篇 400–700 字，宁可短。
 - 每个词条五节：一句话 / 饭桌上可以这么说 / 它到底怎么转的 / 说到这儿就该停了 / 这个词是怎么被用坏的。
+- 前四节负责让你说得出，最后一节负责让你停下来。
 - 幽默来自观察准确，不来自抖机灵。
 - 不确定就说不确定。预测给条件，不给日期。
+- 不编造参数、价格、版本号、日期。
 
-## 状态
+## 部署
 
-初稿阶段。卷一、卷二主体在写，卷三、卷四待写。
+推送到 `main` 会自动构建并发布到 GitHub Pages，工作流见 [.github/workflows/deploy.yml](.github/workflows/deploy.yml)。
+
+## 参与
+
+纠错、提词、补场景都欢迎。开 issue 或提 PR 之前，先看一眼 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 授权
+
+- 文字内容：[CC BY-NC-SA 4.0](LICENSE)——可转载、可改编，需署名、非商业、以相同协议共享。
+- 站点代码：[MIT](LICENSE-CODE)。
+
+## 更新计划
+
+- 每周 1–2 篇，保持口吻统一，不追新闻。
+- 每季度回看一遍「被用坏的词」：有的词会过气，有的词会换壳。
+- 新增词条前先问：它会不会在半年后变成一个没人提的词？如果会，写成附录，不进正文。

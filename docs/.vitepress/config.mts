@@ -5,6 +5,11 @@ import path from 'node:path'
 // npm scripts 都在仓库根目录执行，所以用 cwd 定位 docs 目录
 const docsRoot = path.join(process.cwd(), 'docs')
 
+// GitHub Pages 部署在子路径下，本地开发用根路径
+const base = process.env.KANKAN_BASE || '/'
+
+const repo = 'https://github.com/clear-train/kankan'
+
 function readTitle(file: string): string {
   const raw = fs.readFileSync(file, 'utf-8')
   const body = raw.replace(/^---[\s\S]*?---\s*/, '')
@@ -34,13 +39,30 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '侃侃',
   description: '一本让你在饭桌上真的懂 AI 的书',
+  base,
   cleanUrls: true,
-  head: [['meta', { name: 'theme-color', content: '#b04a2f' }]],
+  sitemap: {
+    hostname: 'https://clear-train.github.io'
+  },
+  head: [
+    ['meta', { name: 'theme-color', content: '#a8492e' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}logo.svg` }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: '侃侃' }],
+    [
+      'meta',
+      { property: 'og:description', content: '一本让你在饭桌上真的懂 AI 的书' }
+    ]
+  ],
   themeConfig: {
+    logo: '/logo.svg',
     nav: [
       { text: '上桌之前', link: '/start/why' },
       { text: '地基', link: '/base/10-next-token' },
-      { text: '热词', link: '/words/20-llm' }
+      { text: '热词', link: '/words/20-llm' },
+      { text: '生意', link: '/industry/40-coding' },
+      { text: '反思', link: '/reflect/50-jobs' },
+      { text: '附录', link: '/appendix/cheat-sheet' }
     ],
     sidebar: {
       '/start/': volume('卷零 · 上桌之前', 'start'),
@@ -59,6 +81,15 @@ export default defineConfig({
     lastUpdated: {
       text: '最近更新',
       formatOptions: { dateStyle: 'medium' }
-    }
+    },
+    editLink: {
+      pattern: `${repo}/edit/main/docs/:path`,
+      text: '在 GitHub 上改这一页'
+    },
+    footer: {
+      message: '文字内容以 CC BY-NC-SA 4.0 发布，代码以 MIT 发布。',
+      copyright: '侃侃 · 会一直更新'
+    },
+    socialLinks: [{ icon: 'github', link: repo }]
   }
 })
