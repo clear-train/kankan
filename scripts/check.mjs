@@ -29,7 +29,20 @@ const VOLUMES = {
   industry: { min: 650, max: 950, sections: ['一个场景', '它是怎么转的', '饭桌上可以这么说', '说到这儿就该停了', '最后'] },
   reflect: { min: 650, max: 950, sections: ['一个场景', '它是怎么转的', '饭桌上可以这么说', '说到这儿就该停了', '最后'] },
   now: { min: 550, max: 950, sections: ['发生了什么', '大家怎么说', '拆开看', '一年后再看', '这一篇的保质期'] },
+  history: { min: 700, max: 1250, sections: ['它的来路', '当年为什么这么做', '走对的和走岔的', '现在还剩什么', '饭桌上怎么说', '时间线', '参考'] },
   appendix: { min: 300, max: 1600, sections: null }
+}
+
+// 人物篇与模型篇结构不同，单独覆盖
+const historyPerson = {
+  min: 600,
+  max: 1050,
+  sections: ['他是谁', '他信什么', '对在哪，错在哪', '他为什么这么说', '饭桌上怎么说', '参考']
+}
+
+const FILE_RULES = {
+  'history/76-altman.md': historyPerson,
+  'history/77-lecun.md': historyPerson
 }
 
 const errors = []
@@ -54,7 +67,7 @@ for (const file of walk(ROOT)) {
   if (['index.md', '404.md', 'updates.md', 'citation.md'].includes(rel) || rel.endsWith('index.md')) continue
 
   const volume = rel.split(path.sep)[0]
-  const rule = VOLUMES[volume]
+  const rule = FILE_RULES[rel.split(path.sep).join('/')] || VOLUMES[volume]
   if (!rule) {
     warnings.push(`${rel}: 不在已知卷目录中`)
     continue

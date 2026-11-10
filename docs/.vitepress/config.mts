@@ -79,6 +79,7 @@ export default defineConfig({
       { text: '生意', link: '/industry/40-coding' },
       { text: '反思', link: '/reflect/50-jobs' },
       { text: '当下', link: '/now/' },
+      { text: '家谱', link: '/history/' },
       { text: '附录', link: '/appendix/cheat-sheet' },
       { text: '更新', link: '/updates' }
     ],
@@ -98,6 +99,15 @@ export default defineConfig({
           items: [
             { text: '这一卷会过气', link: '/now/' },
             ...sectionsOf('now')
+          ]
+        }
+      ],
+      '/history/': [
+        {
+          text: '卷六 · 家谱',
+          items: [
+            { text: '这一行只有八年，已经有家谱了', link: '/history/' },
+            ...sectionsOf('history')
           ]
         }
       ],
