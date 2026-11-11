@@ -88,6 +88,7 @@
 | ✅ | 为什么 To B 这么难 | `docs/industry/44-tob.md` |
 | ✅ | 算力与芯片：新石油 | `docs/industry/45-chips.md` |
 | ✅ | 泡沫：谁在裸泳 | `docs/industry/46-bubble.md` |
+| ✅ | 一个人干十个的活 | `docs/industry/47-one-person-ten-jobs.md` |
 
 ---
 
@@ -103,6 +104,10 @@
 | ✅ | 信息污染：当互联网开始自我循环 | `docs/reflect/53-pollution.md` |
 | ✅ | AI 味：语言的通货膨胀 | `docs/reflect/54-ai-flavor.md` |
 | ✅ | 我们为什么爱谈 AI | `docs/reflect/55-why-we-talk.md` |
+| ✅ | 边界：它能碰什么，不能碰什么 | `docs/reflect/56-boundary.md` |
+| ✅ | 聊着天，事情就做完了 | `docs/reflect/57-chat-to-action.md` |
+| ✅ | 计算机的寒冬 | `docs/reflect/58-cold-winter.md` |
+| ✅ | 第二个土木 | `docs/reflect/59-second-civil.md` |
 
 ---
 
