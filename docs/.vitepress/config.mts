@@ -76,8 +76,8 @@ export default defineConfig({
       { text: '上桌之前', link: '/start/why' },
       { text: '地基', link: '/base/10-next-token' },
       { text: '热词', link: '/words/20-llm' },
-      { text: '生意', link: '/industry/40-coding' },
-      { text: '反思', link: '/reflect/50-jobs' },
+      { text: '生意', link: '/industry/' },
+      { text: '反思', link: '/reflect/' },
       { text: '当下', link: '/now/' },
       { text: '家谱', link: '/history/' },
       { text: '附录', link: '/appendix/cheat-sheet' },
@@ -91,8 +91,24 @@ export default defineConfig({
       ]),
       '/base/': volume('卷一 · 地基', 'base'),
       '/words/': volume('卷二 · 热词', 'words'),
-      '/industry/': volume('卷三 · 生意', 'industry'),
-      '/reflect/': volume('卷四 · 反思', 'reflect'),
+      '/industry/': [
+        {
+          text: '卷三 · 生意',
+          items: [
+            { text: '钱从哪来，谁在付', link: '/industry/' },
+            ...sectionsOf('industry')
+          ]
+        }
+      ],
+      '/reflect/': [
+        {
+          text: '卷四 · 反思',
+          items: [
+            { text: '把话说难听一点', link: '/reflect/' },
+            ...sectionsOf('reflect')
+          ]
+        }
+      ],
       '/now/': [
         {
           text: '卷五 · 当下',
