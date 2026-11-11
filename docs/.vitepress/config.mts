@@ -25,10 +25,15 @@ function sectionsOf(dir: string, order?: string[]) {
     const i = order.indexOf(f.replace(/\.md$/, ''))
     return i === -1 ? order.length : i
   }
+  // 文件名前缀是编号（70-gpt），按数字排，不按字符排，否则 100 会排在 70 前面
+  const serial = (f: string) => {
+    const m = f.match(/^(\d+)-/)
+    return m ? Number(m[1]) : Number.MAX_SAFE_INTEGER
+  }
   return fs
     .readdirSync(full)
     .filter((f) => f.endsWith('.md') && f !== 'index.md')
-    .sort((a, b) => rank(a) - rank(b) || a.localeCompare(b))
+    .sort((a, b) => rank(a) - rank(b) || serial(a) - serial(b) || a.localeCompare(b))
     .map((f) => ({
       text: readTitle(path.join(full, f)),
       link: `/${dir}/${f.replace(/\.md$/, '')}`

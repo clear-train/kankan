@@ -169,6 +169,11 @@
 | ✅ | BERT：先学会填空，再学会说话 | 赢了考卷，输了接口 | `docs/history/91-bert.md` |
 | ✅ | AlphaFold：先在一个问题上，把人类甩开 | 它没变聪明，它只是找对了一道有标准答案的题 | `docs/history/92-alphafold.md` |
 | ✅ | 2012 年那场比赛：机器第一次看懂了图 | 它不是突然想通了，是终于凑齐了 | `docs/history/93-imagenet.md` |
+| ✅ | DALL·E 卖能力，Midjourney 卖眼光 | 同一件事，两种卖法：能力批发，眼光订阅 | `docs/history/99-image-lines.md` |
+| ✅ | 豆包、Kimi、MiniMax：不争第一，争入口 | 卖的不是模型，是容器 | `docs/history/100-china-models.md` |
+| ✅ | Mistral 与 xAI：一个卖主权，一个卖脾气 | 一家卖不用交数据，一家卖不用换 App | `docs/history/101-europe-mideast.md` |
+| ✅ | 工具链：模型之外，真的在赚钱的中间商 | 模型越像水电，卖水表的人越稳 | `docs/history/102-toolchain.md` |
+| ✅ | 反向传播、卷积、LSTM：让 2012 年成为可能的零件 | 能留下来是因为能算，不是因为聪明 | `docs/history/103-classic-nets.md` |
 | ✅ | 1956 年那场会：AI 这个名字是怎么定下来的 | 名字先于能力存在，能力没到，行业就先靠名字借钱 | `docs/history/94-dartmouth.md` |
 | ✅ | 专家系统：比大模型更早赚到钱的那一批 | 把「写规则」这件事本身省掉了 | `docs/history/95-expert-systems.md` |
 | ✅ | 两次寒冬：这门手艺是怎么被冻住的 | 承诺与交付的差额，最后记在会调试的人头上 | `docs/history/96-winters.md` |
