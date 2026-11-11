@@ -39,7 +39,7 @@ const appendixSidebar = () => [
   {
     text: '附录',
     items: [
-      ...sectionsOf('appendix', ['cheat-sheet', 'scripts', 'red-flags']),
+      ...sectionsOf('appendix', ['cheat-sheet', 'scripts', 'red-flags', 'how-it-runs']),
       { text: '引用规范', link: '/citation' },
       { text: '更新日志', link: '/updates' }
     ]

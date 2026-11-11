@@ -72,6 +72,7 @@
 | ✅ | 评测污染 | 技术局 | `docs/words/45-benchmark.md` |
 | ✅ | 端侧模型 | 技术局 | `docs/words/46-edge-model.md` |
 | ✅ | 合成数据 | 技术局 | `docs/words/47-synthetic-data.md` |
+| ✅ | 多智能体 | 一群模型开会，还是各交作业 | `docs/words/48-multi-agent.md` |
 
 ---
 
@@ -110,6 +111,7 @@
 | ✅ | 第二个土木 | `docs/reflect/59-second-civil.md` |
 | ✅ | 技术的半衰期：从论文到过时，有多久 | `docs/reflect/60-half-life.md` |
 | ✅ | 学得越快，学得越慢 | `docs/reflect/61-learn-fast.md` |
+| ✅ | AI 有没有社会 | `docs/reflect/62-ai-society.md` |
 
 ---
 
@@ -180,6 +182,7 @@
 | 状态 | 篇目 | 用途 | 文件 |
 | --- | --- | --- | --- |
 | ✅ | 一分钟速查 | 30 个词，每个一句，饭局前扫一眼 | `docs/appendix/cheat-sheet.md` |
+| ✅ | 一次调用走了几步 | 从命令行到 MCP 的三步，以及壳到底在做什么 | `docs/appendix/how-it-runs.md` |
 | ✅ | 饭局剧本 | 五个真实场景，逐句怎么接 | `docs/appendix/scripts.md` |
 | ✅ | 反装逼清单 | 听到这些话，先别信 | `docs/appendix/red-flags.md` |
 
