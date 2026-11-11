@@ -108,6 +108,8 @@
 | ✅ | 聊着天，事情就做完了 | `docs/reflect/57-chat-to-action.md` |
 | ✅ | 计算机的寒冬 | `docs/reflect/58-cold-winter.md` |
 | ✅ | 第二个土木 | `docs/reflect/59-second-civil.md` |
+| ✅ | 技术的半衰期：从论文到过时，有多久 | `docs/reflect/60-half-life.md` |
+| ✅ | 学得越快，学得越慢 | `docs/reflect/61-learn-fast.md` |
 
 ---
 
