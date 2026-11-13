@@ -115,6 +115,7 @@
 | ✅ | 学得越快，学得越慢 | `docs/reflect/61-learn-fast.md` |
 | ✅ | AI 有没有社会 | `docs/reflect/62-ai-society.md` |
 | ✅ | 蒸馏：是矛，还是盾 | 攻守是同一个动作，看谁拿着 | `docs/reflect/63-distill.md` |
+| ✅ | 开源：是礼物，是陷阱，还是分期付款 | 不是道德选择，是收费位置的移动 | `docs/reflect/64-open-source-trap.md` |
 
 ---
 
