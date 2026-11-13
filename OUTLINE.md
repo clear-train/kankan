@@ -91,6 +91,7 @@
 | ✅ | 算力与芯片：新石油 | `docs/industry/45-chips.md` |
 | ✅ | 泡沫：谁在裸泳 | `docs/industry/46-bubble.md` |
 | ✅ | 一个人干十个的活 | `docs/industry/47-one-person-ten-jobs.md` |
+| ✅ | 选底座：GLM，还是 GPT | 不是选最强的，是选断供那天还能不能开机 | `docs/industry/48-glm-or-gpt.md` |
 
 ---
 
@@ -113,6 +114,7 @@
 | ✅ | 技术的半衰期：从论文到过时，有多久 | `docs/reflect/60-half-life.md` |
 | ✅ | 学得越快，学得越慢 | `docs/reflect/61-learn-fast.md` |
 | ✅ | AI 有没有社会 | `docs/reflect/62-ai-society.md` |
+| ✅ | 蒸馏：是矛，还是盾 | 攻守是同一个动作，看谁拿着 | `docs/reflect/63-distill.md` |
 
 ---
 
