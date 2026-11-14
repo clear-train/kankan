@@ -74,6 +74,7 @@
 | ✅ | 合成数据 | 技术局 | `docs/words/47-synthetic-data.md` |
 | ✅ | 多智能体 | 一群模型开会，还是各交作业 | `docs/words/48-multi-agent.md` |
 | ✅ | 智能组织 | 不是让 AI 替员工干活，是让公司记住自己怎么干活 | `docs/words/49-smart-org.md` |
+| ✅ | 代理支付 | 不是替你点确认，是先把额度签出去 | `docs/words/50-agentic-payment.md` |
 
 ---
 
@@ -133,6 +134,7 @@
 | ✅ | 为了证明自己是人，人们开始故意写错字 | 这不是识别真伪，是识别不合规矩 | `docs/now/63-ai-flavor.md` |
 | ✅ | LibTV：一个卖视频工具的公司，先学会开健身房 | 工具商夹在模型厂和创作者中间，只能先补贴换人 | `docs/now/64-libtv.md` |
 | ✅ | 百度世界：下一幕是「智能组织」 | 只换电机不重摆车间，产量不会变 | `docs/now/65-baidu-world.md` |
+| ✅ | DeepSeek 全家桶应用 API | 脏活变计费项，门槛掉一大截 | `docs/now/66-deepseek-api.md` |
 | ⬜ | 待定 | 不收：涉及未经证实的指控、私人生活、外交与情报传闻 | — |
 
 ---
