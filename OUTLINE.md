@@ -93,6 +93,7 @@
 | ✅ | 泡沫：谁在裸泳 | `docs/industry/46-bubble.md` |
 | ✅ | 一个人干十个的活 | `docs/industry/47-one-person-ten-jobs.md` |
 | ✅ | 选底座：GLM，还是 GPT | 不是选最强的，是选断供那天还能不能开机 | `docs/industry/48-glm-or-gpt.md` |
+| ✅ | 不是用超了，是第一次开发票 | 老成本没有发票；可视化是礼物也是陷阱 | `docs/industry/49-cost-visibility.md` |
 
 ---
 
