@@ -73,6 +73,7 @@
 | ✅ | 端侧模型 | 技术局 | `docs/words/46-edge-model.md` |
 | ✅ | 合成数据 | 技术局 | `docs/words/47-synthetic-data.md` |
 | ✅ | 多智能体 | 一群模型开会，还是各交作业 | `docs/words/48-multi-agent.md` |
+| ✅ | 词元 | 不是翻译，是给它上一个能记账的名字 | `docs/words/51-token-cn.md` |
 | ✅ | 智能组织 | 不是让 AI 替员工干活，是让公司记住自己怎么干活 | `docs/words/49-smart-org.md` |
 | ✅ | 代理支付 | 不是替你点确认，是先把额度签出去 | `docs/words/50-agentic-payment.md` |
 
