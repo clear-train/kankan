@@ -18,9 +18,9 @@
 
 这也是 to B 的入场券。企业采购第一个问题不是「多聪明」，是「它凭什么这么答」。你拿得出一份文件，流程才走得下去。
 
-我猜他们当时想的是：要是哪天有人追问「谁允许你这么做的」，答案最好是一份写好的东西，而不是一张嘴。
+要是哪天有人追问「谁允许你这么做的」，最好递过去一份写好的东西，而不是一张嘴。
 
-这也是它跟 OpenAI 真正的分歧所在。不是要不要赚钱，是谁有资格替人类做判断。一家把答案写进文件，一家把答案交给市场，两条路从第一天就分开了。
+这是它跟 OpenAI 真正的分歧。不是要不要赚钱，是谁有资格替人类做判断：一家写进文件，一家交给市场。
 
 ## 走对的和走岔的
 
@@ -34,13 +34,15 @@
 
 走岔的第一件，是速度。安全叙事要慢，估值要快。2026 年 2 月的 G 轮，300 亿美元，投后 3800 亿（[Anthropic](https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation)）；4 月，谷歌承诺最多再投 400 亿，先付 100 亿，按 3500 亿估值算（[Reuters](https://en.aletihad.ae/news/ai/4660793/google-plans-to-invest-up-to--40-billion-in-anthropic--bloom)）；5 月的 H 轮，650 亿，投后 9650 亿（[Anthropic](https://www.anthropic.com/news/series-h)）。五个月，估值翻了一倍半。
 
-第二件，是上市。10 月 26 日，它公开递交 S-1，代码 ANT（[Anthropic](https://www.anthropic.com/news/s1-sec)）。11 月 9 日，路透看到一份发给银行的版本：8.667 亿股 A 类股，70 到 80 美元，按上限募 693 亿；公司自己卖 8.433 亿股，老股东卖 2330 万股；另配 260 亿美元的私募配售（Class N），谷歌、英伟达、AMD、博通、美光、微软、台积电按发行价买，IPO 后立即交割（[Reuters](https://www.zawya.com/en/capital-markets/ai-shaping-digital-future/anthropics-nearly-70bln-ipo-plan-briefly-circulated-to-banks-then-retracted-2142775)）。然后它把文件撤回了，说定价细节不准确，之后更新。
+第二件，是上市。10 月 26 日，它公开递交 S-1，代码 ANT（[Anthropic](https://www.anthropic.com/news/s1-sec)）。11 月 9 日，路透看到一份发给银行的版本：8.667 亿股、70 到 80 美元，随后公司撤回，说定价细节不准确（[Reuters](https://www.zawya.com/en/capital-markets/ai-shaping-digital-future/anthropics-nearly-70bln-ipo-plan-briefly-circulated-to-banks-then-retracted-2142775)）。
 
-所以到今天，它没有定价，没有上市。递交了，不等于卖出去了。
+九天之后它还是上了。11 月 18 日定价，每股 83 美元，9.8 亿股 A 类股，募资 813.4 亿美元，超过 6 月 SpaceX 那笔 750 亿，成了当时最大的一次。11 月 19 日挂牌，开盘 111.5 美元，随后回落到 100 美元附近；承销商还有 30 天内最多 1.47 亿股的超额配售选择权（[新华网英文，2026-11-20](https://english.news.cn/20261120/6f558f00608d46788125ce73adc0ccfe/c.html)）。
 
-第三件，是数字本身。截至 9 月 30 日的季度，收入接近 170 亿，但环比增速明显下滑；跟亚马逊、谷歌这些伙伴的算力承诺接近 9000 亿。市场一度讨论 2 万亿估值，现在 1.5 万亿算高位（[Reuters](https://www.zawya.com/en/capital-markets/ai-shaping-digital-future/anthropics-nearly-70bln-ipo-plan-briefly-circulated-to-banks-then-retracted-2142775)）。
+撤回不等于取消，只是把价格再推一次。这次推成了，代价写在招股书里：2026 年前九个月收入 332.4 亿美元，同比增长约 1200%；同期净亏损 1040 亿美元（[新华网英文，2026-11-20](https://english.news.cn/20261120/6f558f00608d46788125ce73adc0ccfe/c.html)）。收入涨得比谁都快，亏得也比谁都多。
 
-起草文件的人和撤回文件的人是同一批。这很像它的产品：先把话说满，再补一句以最终版本为准。
+第三件，是账。跟亚马逊、谷歌的算力承诺接近 9000 亿；市场一度讨论 2 万亿估值，现在 1.5 万亿算高位（[Reuters](https://www.zawya.com/en/capital-markets/ai-shaping-digital-future/anthropics-nearly-70bln-ipo-plan-briefly-circulated-to-banks-then-retracted-2142775)）。
+
+先把话说满，再补一句以最终版本为准——这是它的产品，也是它的招股书。区别是这一次，补的那句写进了账里。
 
 ## 现在还剩什么
 
@@ -65,7 +67,7 @@
 - 2023 年 5 月 9 日，Claude 的宪法公开（[Anthropic](https://www.anthropic.com/news/claudes-constitution)）。
 - 2026 年 2 月 12 日，G 轮 300 亿美元，投后 3800 亿（[Anthropic](https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation)）。
 - 2026 年 10 月 26 日，公开递交 S-1，代码 ANT（[Anthropic](https://www.anthropic.com/news/s1-sec)）。
-- 2026 年 11 月 9 日，定价版本流出后撤回（[Reuters](https://www.zawya.com/en/capital-markets/ai-shaping-digital-future/anthropics-nearly-70bln-ipo-plan-briefly-circulated-to-banks-then-retracted-2142775)）。
+- 2026 年 11 月 9 日，定价版本流出后撤回（[Reuters](https://www.zawya.com/en/capital-markets/ai-shaping-digital-future/anthropics-nearly-70bln-ipo-plan-briefly-circulated-to-banks-then-retracted-2142775)）；11 月 18 日定价 83 美元、募资 813.4 亿美元，11 月 19 日挂牌（[新华网英文](https://english.news.cn/20261120/6f558f00608d46788125ce73adc0ccfe/c.html)）。
 
 ## 参考
 
@@ -73,4 +75,5 @@
 - Anthropic：《Introducing Claude》，2023-03-14. https://www.anthropic.com/news/introducing-claude（访问于 2026-11-10）.
 - Anthropic：《Claude's constitution》，2023-05-09. https://www.anthropic.com/news/claudes-constitution（访问于 2026-11-10）.
 - Anthropic：《Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation》，2026-02-12. https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation（访问于 2026-11-10）.
+- 新华网英文：《U.S. AI startup Anthropic floats shares on Nasdaq with record IPO》，2026-11-20，https://english.news.cn/20261120/6f558f00608d46788125ce73adc0ccfe/c.html ，访问日期 2026-11-26
 - Echo Wang：《Anthropic's nearly $70bln IPO plan briefly circulated to banks, then retracted》，Reuters，2026-11-10. https://www.zawya.com/en/capital-markets/ai-shaping-digital-future/anthropics-nearly-70bln-ipo-plan-briefly-circulated-to-banks-then-retracted-2142775（访问于 2026-11-10）.

@@ -85,6 +85,7 @@ export default defineConfig({
       { text: '反思', link: '/reflect/' },
       { text: '当下', link: '/now/' },
       { text: '家谱', link: '/history/' },
+      { text: '编年史', link: '/atlas/' },
       { text: '附录', link: '/appendix/cheat-sheet' },
       { text: '更新', link: '/updates' }
     ],
@@ -129,6 +130,15 @@ export default defineConfig({
           items: [
             { text: '这一行只有八年，已经有家谱了', link: '/history/' },
             ...sectionsOf('history')
+          ]
+        }
+      ],
+      '/atlas/': [
+        {
+          text: '卷七 · 编年史',
+          items: [
+            { text: '所有模型，一张清单', link: '/atlas/' },
+            ...sectionsOf('atlas')
           ]
         }
       ],
