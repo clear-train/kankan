@@ -99,7 +99,9 @@ for (const file of walk(ROOT)) {
   }
 
   // 语言禁令
-  if (/[！!]/.test(body)) errors.push(`${rel}: 出现感叹号`)
+  // 书名号里的原文标题、链接文字属于被引内容，不算我们的语气，先剥掉
+  const prose = body.replace(/《[^》]*》/g, '').replace(/\[[^\]]*\]\([^)]*\)/g, '')
+  if (/[！!]/.test(prose)) errors.push(`${rel}: 出现感叹号`)
   if (/[\u{1F300}-\u{1FAFF}]/u.test(body)) errors.push(`${rel}: 出现 emoji`)
   for (const word of BANNED) {
     if (body.includes(word)) errors.push(`${rel}: 禁用词「${word}」`)
